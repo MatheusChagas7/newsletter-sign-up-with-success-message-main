@@ -72,6 +72,14 @@
     .cabecalhoEmail{
         padding-left: 3px;
     }
+    
+    .emailInput{
+        width: 300px;
+    }
+
+    .btnSubmit{
+        width: 300px;
+    }
 
     /* FIM SIGN MOBILE*/
 
@@ -109,7 +117,7 @@
     }
     
     .btnDismiss{
-        padding: 20px 20px;
+        width: 300px;
         margin: 20px 0px 10px;
     }
 
