@@ -4,6 +4,10 @@
 
     /* INÍCIO SIGN MOBILE */
 
+    body{
+        width: 100%;
+    }
+
     .sign-upDesk{
         display: none;
     }
