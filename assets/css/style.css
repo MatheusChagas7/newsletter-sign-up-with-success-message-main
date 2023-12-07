@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto-Regular', 'Roboto-Bold', sans-serif;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #6E5A85;
+}
+
+
+/* INICIO SEÇÃO SIGN UP */
+
+.secSign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+/* INICIO SIGN ESQ*/
+
+.signEsquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 300px;
+    height: 400px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    padding-top: 75px ;
+}
+
+.titulo p{
+    color: #262949;
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    line-height: 120%;
+}
+
+.info p{
+    width: 350px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #262949;
+}
+
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+}
+
+.vantagensList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.vantagens img{
+    height: 15px;
+    width: 15px;
+}
+
+.vantagens p{
+    font-size: 12px;
+    padding-left: 12px;
+    color: #262949;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.form p{
+    padding-bottom: 10px;
+    color: #262949;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cabecalhoEmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 301px;
+}
+
+.cabecalhoEmail span{
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(216, 116, 105);
+}
+
+.emailInput{
+    padding: 10px 112px 15px 10px;
+    border-radius: 7px;
+    border: solid 1px #BDBDBF;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.btnSubmit{
+    padding: 15px 44px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #262949;
+    box-shadow: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botaohv:hover{
+    background: linear-gradient(90deg, rgba(255,84,116) 20%, rgba(255,104,64) 90%);
+}
+
+.botaoact:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+/* FIM SIGN ESQ*/
+
+/*INÍCIO SIGN DIR*/
+
+.signDireita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 350px;
+}
+
+.signDireita img{
+    height: 90%;
+}
+
+.sign-upMob{
+    display: none;
+}
+
+/*FIM SIGN DIR*/
+
+
+/* FIM SEÇÃO SIGN UP*/
+
+
+
+/* SUCESSO INÍCIO */
+
+.success{
+    height: 520px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #262949;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+
+.success img{
+    height: 70px;
+    width: 70px;
+    margin: 55px 0px 25px 60px;
+}
+
+.thanks{
+    font-size: 3.5em;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.confirmacao{
+    font-size: 16px;
+    padding: 10px 85px 20px 60px;
+    line-height: 150%;
+
+}
+
+.confirmaEmail{
+    font-weight: bold;
+}
+
+.btnDismiss{
+    padding: 20px 20px;
+    margin: 20px 80px 0px 60px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #262949;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* SUCESSO FIM */
+
+/* EXIBIÇÃO */
+
+.display{
+    display: none;
+}
+
+/* EXIBIÇÃO */
+
+
+
+/* ATRIBUIÇÃO INÍCIO*/
+
+.attribution { 
+    margin-top: 15px;
+    font-size: 11px; 
+    text-align: center; 
+    color: #000;
+    background-color: #fff;
+    border: solid 1px #fff;
+    border-radius: 2px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* ATRIBUIÇÃO FIM */

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+
+<body>
+
+  <!-- Sign-up form start -->
+  <section class="secSign" id="signUp">
+
+    <div class="signEsquerda">
+
+      <img class="sign-upMob" src="assets/images/illustration-sign-up-mobile.svg" alt="imagem sign-up mobile">
+
+      <div class="alinhamento">
+
+        <div class="titulo">
+          <p>Stay updated!</p>
+        </div>
+  
+        <div class="info">
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        </div>
+  
+        <div class="vantagens">
+          <div class="vantagensList">
+            <img src="assets/images/icon-success.svg" alt="">
+            <p>Product discovery and building what matters</p>
+          </div>
+          <div class="vantagensList">
+            <img src="assets/images/icon-success.svg" alt="">
+            <p>Measuring to ensure updates are a success</p>
+          </div>
+          <div class="vantagensList">
+            <img src="assets/images/icon-success.svg" alt="">
+            <p>And much more!</p>
+          </div>
+        </div>
+  
+        <div class="form">
+          <div class="cabecalhoEmail">
+            <p>Email address</p><span id="msgValid">Valid email required.</span>
+          </div>
+          <input id="email" class="emailInput" name="emailSub" type="email" placeholder="email@company.com" autocomplete="off">
+          <input type="submit" id="subscribe" class="btnSubmit botaoact" onclick="troca('secSign')" value="Subscribe to monthly newsletter">
+        </div>
+      </div>
+
+      </div>
+
+    <div class="signDireita">
+      <img class="sign-upDesk"src="assets/images/illustration-sign-up-desktop.svg" alt="imagem sign-up desktop">
+    </div>
+  </section>
+
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+  <section class="success">
+
+
+      <img src="assets/images/icon-success.svg" alt="">
+
+
+      <p class="thanks">Thanks for subscribing!</p>
+  
+      <p class="confirmacao">
+        A confirmation email has been sent to <a class="confirmaEmail">ash@loremcompany.com.</a>
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+  
+      <button id="dismiss" class="btnDismiss botaohv botaoact" onclick="troca('success')">Dismiss message</button>
+  
+
+  </section>
+
+
+  <!-- Success message end -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Matheus Chagas</a>.
+  </div>
+
+  <script src="assets/js/controle.js"></script>
+</body>
+
+</html>

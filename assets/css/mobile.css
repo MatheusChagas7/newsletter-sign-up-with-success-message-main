@@ -1,0 +1,113 @@
+/* MOBILE INÍCIO */
+
+@media(max-width: 710px) {
+
+    /* INÍCIO SIGN MOBILE */
+
+    .sign-upDesk{
+        display: none;
+    }
+
+
+    .sign-upMob{
+        display: flex;
+        width: 350px;
+        height: 270px;
+        object-fit: cover;
+        border-radius: 0% 0% 5% 5%;
+    }
+
+
+    .secSign{
+        flex-direction: column;
+        height: 750px;
+        width: 350px;
+        border-radius: 0%;
+    }
+
+    .alinhamento{
+        height: 580px;
+    }
+
+    .titulo{
+        padding-top: 40px ;
+    }
+
+    .titulo p{
+        color: #262949;
+        font-size: 2.2em;
+        font-weight: bold;
+    }
+
+    .info{
+        display: flex;
+
+        padding-bottom: 10px;
+    }
+    
+    .info p{
+        width: 350px;
+        font-size: 13px;
+    }
+    
+    .vantagensList{
+        align-items: start;
+        padding-bottom: 10px;
+    }
+    
+    .vantagens img{
+        height: 20px;
+        width: 20px;
+    }
+    
+    .vantagens p{
+        font-size: 13px;
+        line-height: 150%;
+    }
+
+    .cabecalhoEmail{
+        padding-left: 3px;
+    }
+
+    /* FIM SIGN MOBILE*/
+
+    /* INÍCIO SUCESSO MOBILE */
+
+    
+    .success{
+        height: 750px;
+        width: 350px;
+        font-size: 14px;
+        border-radius: 0px;
+        padding: 0px 25px;
+    }
+    
+    .success img{
+        margin-top: 100px;
+        margin-left: 0px;
+        height: 60px;
+        width: 60px;
+        padding: 0px;
+    }
+    
+    .thanks{
+        font-size: 2.5em;
+        font-weight: bold;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .confirmacao{
+        font-size: 16px;
+        line-height: 150%;
+        padding: 0px;
+        margin-bottom: 260px;
+    }
+    
+    .btnDismiss{
+        padding: 20px 20px;
+        margin: 20px 0px 10px;
+    }
+
+    /* FIM SUCESSO MOBILE */
+}
