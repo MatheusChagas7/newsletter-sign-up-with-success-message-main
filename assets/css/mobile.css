@@ -1,11 +1,11 @@
-/* MOBILE INÍCIO */
+/* MOBILE INÍCIO MAX 710 */
 
 @media(max-width: 710px) {
 
     /* INÍCIO SIGN MOBILE */
 
     body{
-        width: 100%;
+        min-height: 100vh;
     }
 
     .sign-upDesk{
@@ -123,3 +123,5 @@
 
     /* FIM SUCESSO MOBILE */
 }
+
+/* MOBILE FIM MAX 710*/
