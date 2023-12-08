@@ -5,7 +5,7 @@
     /* INÍCIO SIGN MOBILE */
 
     body{
-        overflow: hidden;
+        height: 100dvh;
     }
 
     .sign-upDesk{
@@ -140,6 +140,10 @@
 @media(max-height: 750px) {
 
     /* INÍCIO SIGN MOBILE */
+
+    body{
+        height: 100dvh;
+    }
 
     .sign-upDesk{
         display: none;
