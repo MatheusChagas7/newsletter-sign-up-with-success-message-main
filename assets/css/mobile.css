@@ -4,10 +4,6 @@
 
     /* INÍCIO SIGN MOBILE */
 
-    body{
-        height: 100dvh;
-    }
-
     .sign-upDesk{
         display: none;
     }
@@ -140,10 +136,6 @@
 @media(max-height: 750px) {
 
     /* INÍCIO SIGN MOBILE */
-
-    body{
-        height: 100dvh;
-    }
 
     .sign-upDesk{
         display: none;
