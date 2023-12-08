@@ -1,12 +1,8 @@
-/* MOBILE INÍCIO MAX 710 */
+/* MOBILE INÍCIO MAX 769 */
 
-@media(max-width: 710px) {
+@media(max-width: 769px) {
 
     /* INÍCIO SIGN MOBILE */
-
-    body{
-        min-height: 100vh;
-    }
 
     .sign-upDesk{
         display: none;
@@ -27,6 +23,15 @@
         height: 750px;
         width: 350px;
         border-radius: 0%;
+    }
+
+    .signEsquerda{
+        height: 750px;
+        width: 350px;
+    }
+    
+    .signDireita{
+        display: none;
     }
 
     .alinhamento{
@@ -50,7 +55,6 @@
     }
     
     .info p{
-        width: 350px;
         font-size: 13px;
     }
     
@@ -71,6 +75,7 @@
 
     .cabecalhoEmail{
         padding-left: 3px;
+        width: 300px;
     }
     
     .emailInput{
@@ -124,4 +129,142 @@
     /* FIM SUCESSO MOBILE */
 }
 
-/* MOBILE FIM MAX 710*/
+/* MOBILE FIM MAX 769*/
+
+
+
+@media(max-height: 750px) {
+
+    /* INÍCIO SIGN MOBILE */
+
+    .sign-upDesk{
+        display: none;
+    }
+
+
+    .sign-upMob{
+        display: flex;
+        width: 300px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 0% 0% 5% 5%;
+    }
+
+
+    .secSign{
+        flex-direction: column;
+        height: 500px;
+        width: 300px;
+        border-radius: 0%;
+    }
+
+    .signEsquerda{
+        height: 500px;
+        width: 300px;
+    }
+    
+    .signDireita{
+        display: none;
+    }
+
+    .alinhamento{
+        height: 330px;
+        width: 250px;
+    }
+
+    .titulo{
+        padding-top: 20px ;
+    }
+
+    .titulo p{
+        color: #262949;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .info{
+        display: flex;
+        padding-bottom: 5px;
+    }
+    
+    .info p{
+        font-size: 11px;
+    }
+    
+    .vantagensList{
+        align-items: start;
+        padding-bottom: 5px;
+    }
+    
+    .vantagens img{
+        height: 15px;
+        width: 15px;
+    }
+    
+    .vantagens p{
+        font-size: 11px;
+        line-height: 120%;
+    }
+
+    .form{
+        padding: 0px;
+    }
+
+    .cabecalhoEmail{
+        padding: 0px;
+        width: 250px;
+    }
+    
+    .emailInput{
+        width: 250px;
+        height: 40px;
+        margin-bottom: 6px;
+    }
+
+    .btnSubmit{
+        padding: 2px;
+        height: 40px;
+        width: 250px;
+    }
+
+    /* FIM SIGN MOBILE*/
+
+    /* INÍCIO SUCESSO MOBILE */
+
+    
+    .success{
+        height: 500px;
+        width: 300px;
+        border-radius: 0px;
+        padding: 0px 25px;
+    }
+    
+    .success img{
+        margin-top: 100px;
+        margin-left: 0px;
+        height: 60px;
+        width: 60px;
+        padding: 0px;
+    }
+    
+    .thanks{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .confirmacao{
+        font-size: 13px;
+        line-height: 150%;
+        padding: 0px;
+        margin-bottom: 100px;
+    }
+    
+    .btnDismiss{
+        width: 250px;
+        margin: 20px 0px 10px;
+    }
+
+    /* FIM SUCESSO MOBILE */
+}
