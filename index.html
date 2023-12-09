@@ -48,13 +48,13 @@
           </div>
         </div>
   
-        <div class="form">
+        <form action="success.html" class="form">
           <div class="cabecalhoEmail">
             <p>Email address</p><span id="msgValid">Valid email required.</span>
           </div>
           <input id="email" class="emailInput" name="emailSub" type="email" placeholder="email@company.com" autocomplete="off">
-          <input type="submit" id="subscribe" class="btnSubmit botaoact" onclick="troca('secSign')" value="Subscribe to monthly newsletter">
-        </div>
+          <input type="submit" id="subscribe" class="btnSubmit" value="Subscribe to monthly newsletter">
+        </form>
       </div>
 
       </div>
@@ -67,34 +67,16 @@
 
   <!-- Sign-up form end -->
 
-  <!-- Success message start -->
-  <section class="success">
-
-
-      <img src="assets/images/icon-success.svg" alt="">
-
-
-      <p class="thanks">Thanks for subscribing!</p>
-  
-      <p class="confirmacao">
-        A confirmation email has been sent to <a class="confirmaEmail">ash@loremcompany.com.</a>
-        Please open it and click the button inside to confirm your subscription.
-      </p>
-  
-      <button id="dismiss" class="btnDismiss botaohv botaoact" onclick="troca('success')">Dismiss message</button>
-  
-
-  </section>
-
-
-  <!-- Success message end -->
+  <!-- Attribution start -->
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Matheus Chagas</a>.
   </div>
 
-  <script src="assets/js/controle.js"></script>
+  <!-- Attribution end -->
+
+  <script src="assets/js/index.js"></script>
 </body>
 
 </html>

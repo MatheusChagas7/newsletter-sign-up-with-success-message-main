@@ -1,12 +1,9 @@
-const suc = document.querySelector('.success');
-
-const sub = document.querySelector('.secSign');
-
 document.getElementById('subscribe').disabled = true;
 
 const msgValid = document.querySelector('#msgValid').classList.add('display');
 
 
+// função para validar e-mail e liberar o botão de subscribe
 document.getElementById('email').addEventListener('input', function(event){
     
     let conteudo = document.getElementById('email').value;
@@ -25,6 +22,8 @@ document.getElementById('email').addEventListener('input', function(event){
         
         document.getElementById('subscribe').classList.add('botaohv');
 
+        document.getElementById('subscribe').classList.add('botaoact');
+
         document.getElementById('msgValid').classList.add('display');
     
     }else{
@@ -35,36 +34,3 @@ document.getElementById('email').addEventListener('input', function(event){
 })
 
 
-suc.classList.add('display');
-
-function verificaInput(){
-
-}
-
-function troca(id) {
-
-  if (id == 'secSign') {
-
-    sub.classList.add('display');
-
-    suc.classList.remove('display');
-
-    const email = document.querySelector('#email');
-
-    const emailDigitado = email.value;
-
-    const infoEmail = document.querySelector('.confirmaEmail');
-
-    infoEmail.innerHTML = emailDigitado;
-
-
-  } else if (id == 'success') {
-
-    suc.classList.add('display');
-
-    sub.classList.remove('display');
-
-
-  }
-
-}
